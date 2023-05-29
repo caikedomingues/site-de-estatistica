@@ -1,0 +1,158 @@
+
+/*
+nyanza: #e5f9e0
+Cardo: #DBC2CF
+beringela: #6D435A
+Uva passa preta: #352D39
+Encouraçado cinza: #77867F
+cor de decoração do link: #A1CDF4
+Floral branco: #FFF8F0
+cor de menta: #00B17C
+céu claro azul: #A1CDF4
+*/
+:root{
+--fundo-do-body: white;
+---cor-do-menu: #352D39;
+--cor-de-decoracao-do-link: #A1CDF4;
+--cor-do-section: #352D39;
+}
+
+body{
+
+    background-color: var(--fundo-do-body);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header{
+
+    background-color: var(---cor-do-menu);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: var(--cor-do-h1);
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3{
+
+    text-align: center;
+}
+
+
+li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+
+    text-decoration: underline;
+    color: var(--cor-de-decoracao-do-link);
+
+
+}
+.inicio{
+
+    color: var(--cor-de-decoracao-do-link);
+    text-decoration: underline;
+}
+
+article{
+    text-align: justify;
+}
+
+p{
+    margin-left: 20px;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+.pcentro{
+
+    text-align: center;
+
+   
+}
+
+section{
+
+    background-color: var(--cor-do-section);
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.imagem1{
+    text-align: center;
+}
+
+.imgpercentual{
+
+    height: 250px;
+}
+
+.paralax1{
+
+    background-image: url("../imagens/simbolo1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--cor-do-section);
+    opacity: 0.76;
+    color:white;
+    
+
+}
+
+.pfundo{
+
+    color: white;
+    background-color: var(--cor-do-section);
+    opacity: 0.76;
+    border-radius: 30px;
+}
+
+.hfundo{
+    color: white;
+    background-color: var(--cor-do-section);
+    text-align: center;
+    opacity: 0.76;
+}
+img{
+
+    height: 325px;
+}
+
+footer a{
+
+    color: black;
+
+}
